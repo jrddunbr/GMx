@@ -1,0 +1,46 @@
+@font-face {
+    font-family: gmx;
+    src: url(font/Ubuntu-B.ttf);
+}
+
+html {
+  background: #FFFFFF;
+  color: black;
+  font-family: "gmx", "Lucida Console", Monaco, monospace;
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+
+a, a.visited {
+  color: #AAAAAA;
+}
+
+code, pre {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 24px;
+}
+
+.content {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.indent {
+  margin-left: 20px;
+}

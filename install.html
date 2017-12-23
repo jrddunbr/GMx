@@ -5,20 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Install</title>
+  <style>
+
+html, pre, code {
+  font-size: 16px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+}
+
+h3 {
+  font-size: 24px !important;
+}
+
+h4 {
+  font-size: 20px !important;
+}
+
+  </style>
 </head>
 <body>
   <div class="content">
     <h1>Install</h1>
     <p>
       This page details how to get a modded minecraft client running.
-      <br/>
-      One can also use MultiMC - install it, then create a new 1.7.10 instance, then once it's created, click Install Forge, and then click Loader Mods, add, and then select the mods. Don't forget to setup an account in the upper right as well.
       <br/><br/>
-      Contact Jared D. for more details (see main page).
+      One can use <a href="https://multimc.org/#Download">MultiMC</a>, it's very easy to use, and cross platform.
+      <br/><br/>
+      The other option is to use the Mojang Launcher shipped with Minecraft by default, but be warned that sometimes it breaks.
     </p>
 
-    <h3>Windows</h3>
+    <h2>Using the MultiMC Launcher</h2>
 
+    <ol>
+      <li><a href="https://multimc.org/#Download">Download MultiMC</a> for your platform.</li>
+      <ul>
+        <li>AUR Users: Install <code>multimc5</code> from the AUR.</li>
+      </ul>
+      <li>Launch MultiMC</li>
+      <li>Using the account manager in the upper right, sign into your Mojang account</li>
+      <li>Right click in the large pane, and select "Create Instance".</li>
+      <li>Click the 3 dots to the right of the version selector, under Vanilla Minecraft (don't let this fool you), and select the correct version for the pack. Click OK.</li>
+      <li>Right click on the icon in the pane, and select "Edit Instance"</li>
+      <li>Click the Install Forge button. Select the most recent version. Particularly, for 1.7.10, the version with a bug next to it is completely stable.</li>
+      <li>On the left menu, click "Loader Mods"</li>
+      <li>On the right menu, click "Add", then add the <code>.jar</code> files - be sure to EXTRACT your zip file the mods came in completely to a folder. It will NOT work from inside the <code>.zip</code></li>
+      <li>Click the "Launch" button at the bottom right. In the future, you can just launch the instance by double clicking on it, profit</li>
+    </ol>
+
+    <h2>Using the Mojang Launcher</h2>
+
+    <h3>Windows</h3>
     <ol>
       <li>Install <a href="https://www.java.com/en/download/">Java 8</a> (and not Java 9)</li>
       <li>Download the multiplatform Java <code>.jar</code> file from the Minecraft site</li>

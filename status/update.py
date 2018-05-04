@@ -46,8 +46,11 @@ while 1:
     playerList = [] # list of pairs of ("name", "uuid")
 
     status = server.status()
-    for player in status.players.sample:
-        playerList.append((player.name, player.id))
+    try:
+        for player in status.players.sample:
+            playerList.append((player.name, player.id))
+    except:
+        pass
 
     output = "<p class=\"indent\">Number of Players Online: {}</p>\n".format(status.players.online)
     output += makeTable(playerList)

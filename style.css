@@ -44,3 +44,12 @@ code, pre {
 .indent {
   margin-left: 20px;
 }
+
+table {
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+}
